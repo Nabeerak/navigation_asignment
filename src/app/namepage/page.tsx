@@ -4,7 +4,7 @@ import {useRouter} from "next/navigation";
 
 
 
-const namepage = () => {
+const Namepage = () => {
     const router = useRouter()
     
     const handleBack = () => {
@@ -18,4 +18,4 @@ const namepage = () => {
     )
 }
 
-export default namepage;
+export default Namepage;

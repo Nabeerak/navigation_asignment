@@ -3,8 +3,7 @@ import React from "react";
 import {useRouter} from "next/navigation";
 
 
-
-const homepage = () => {
+const Homepage =  () => {
     const router = useRouter()
 
     
@@ -19,4 +18,4 @@ const homepage = () => {
     )
 }
 
-export default homepage;
+export default Homepage;
